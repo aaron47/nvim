@@ -135,7 +135,6 @@ return packer.startup(function(use)
 		end,
 	})
 
-	use("MunifTanjim/prettier.nvim")
 	use("tpope/vim-fugitive")
 	use("theprimeagen/harpoon")
 
