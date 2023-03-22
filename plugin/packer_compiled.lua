@@ -74,11 +74,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  Colorschemes = {
-    loaded = true,
-    path = "/home/ion/.local/share/nvim/site/pack/packer/start/Colorschemes",
-    url = "https://github.com/LunarVim/Colorschemes"
-  },
   ["Comment.nvim"] = {
     loaded = true,
     path = "/home/ion/.local/share/nvim/site/pack/packer/start/Comment.nvim",
@@ -143,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ion/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["lunar.nvim"] = {
+    loaded = true,
+    path = "/home/ion/.local/share/nvim/site/pack/packer/start/lunar.nvim",
+    url = "https://github.com/lunarvim/lunar.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,

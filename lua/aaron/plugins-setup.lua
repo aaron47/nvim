@@ -138,7 +138,7 @@ return packer.startup(function(use)
 	use("tpope/vim-fugitive")
 	use("theprimeagen/harpoon")
   use("folke/tokyonight.nvim")
-  use("LunarVim/Colorschemes")
+  use("lunarvim/lunar.nvim")
 	if packer_bootstrap then
 		require("packer").sync()
 	end

@@ -34,6 +34,7 @@ null_ls.setup({
         "typescript",
         "typescriptreact",
         "yaml",
+        "prisma"
       }
     }), -- js/ts formatter
 		formatting.stylua, -- lua formatter
