@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/ion/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["lunar.nvim"] = {
+    loaded = true,
+    path = "/home/ion/.local/share/nvim/site/pack/packer/start/lunar.nvim",
+    url = "https://github.com/lunarvim/lunar.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/ion/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -269,6 +274,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ion/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/ion/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["typescript.nvim"] = {
     loaded = true,

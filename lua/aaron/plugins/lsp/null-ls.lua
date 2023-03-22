@@ -34,9 +34,25 @@ null_ls.setup({
         "typescript",
         "typescriptreact",
         "yaml",
+        "prisma"
       }
     }), -- js/ts formatter
 		formatting.stylua, -- lua formatter
+    formatting.phpcsfixer.with({
+      filetypes = {
+        "php",
+      }
+    }),
+    formatting.rustfmt.with({
+      filetypes = {
+        "rust",
+      }
+    }),
+    diagnostics.phpcs.with({
+      filetypes = {
+        "php",
+      }
+    }),
 		diagnostics.eslint_d.with({
 			-- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
