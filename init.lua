@@ -14,6 +14,20 @@ require("aaron.plugins.lsp.null-ls")
 require("aaron.plugins.autopairs")
 require("aaron.plugins.treesitter")
 require("aaron.plugins.gitsigns")
--- require("aaron.plugins.transparent")
 require("aaron.plugins.harpoon")
-vim.cmd.colorscheme("lunar")
+require("tokyonight").setup({
+	style = "storm",
+	transparent = true,
+	terminal_colors = false,
+})
+require("catppuccin").setup({
+	flavour = "macchiato",
+	transparent_background = true,
+	term_colors = false,
+})
+
+
+vim.cmd.colorscheme("tokyonight")
+vim.cmd("highlight NvimTreeNormal guibg=none")
+vim.cmd("highlight NvimTreeNormalNC guibg=none")
+vim.cmd("highlight NvimTreeWinSeparator guibg=none")

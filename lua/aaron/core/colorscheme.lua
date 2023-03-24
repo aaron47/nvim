@@ -18,6 +18,11 @@
 -- end
 --
 --
+
+require("rose-pine").setup({
+  disable_background = true
+})
+
 local function colorMyPencil(color)
 	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
@@ -25,6 +30,9 @@ local function colorMyPencil(color)
 	vim.cmd("highlight TelescopeTitle guibg=none")
 	vim.cmd("highlight TelescopeNormal guibg=none")
   vim.cmd("highlight TelescopePromptNormal guibg=none")
+  vim.cmd("highlight GitsignsAdd guibg=none")
+  vim.cmd("highlight GitSignsChange guibg=none")
+  vim.cmd("highlight GitSignsDelete guibg=none")
 end
 
 colorMyPencil()

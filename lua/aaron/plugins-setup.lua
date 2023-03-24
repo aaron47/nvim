@@ -119,10 +119,8 @@ return packer.startup(function(use)
 	use("github/copilot.vim")
 	use("HiPhish/nvim-ts-rainbow2")
 	use({ "elgiano/nvim-treesitter-angular", branch = "topic/jsx-fix" })
-	use("xiyaowong/nvim-transparent")
 	use("nvim-lua/popup.nvim")
 	use("nvim-telescope/telescope-media-files.nvim")
-
 	-- tailwindcss stuff
 	use({
 		"themaxmarchuk/tailwindcss-colors.nvim",
