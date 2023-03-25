@@ -1,7 +1,7 @@
 require("aaron.plugins-setup")
 require("aaron.core.options")
 require("aaron.core.keymaps")
--- require("aaron.core.colorscheme")
+require("aaron.core.colorscheme")
 require("aaron.plugins.comment")
 require("aaron.plugins.nvim-tree")
 require("aaron.plugins.lualine")
@@ -26,8 +26,10 @@ require("catppuccin").setup({
 	term_colors = false,
 })
 
-
 vim.cmd.colorscheme("tokyonight")
 vim.cmd("highlight NvimTreeNormal guibg=none")
 vim.cmd("highlight NvimTreeNormalNC guibg=none")
 vim.cmd("highlight NvimTreeWinSeparator guibg=none")
+vim.cmd("highlight TelescopeBorder guibg=none")
+vim.cmd("highlight TelescopeTitle guibg=none")
+vim.cmd("highlight TelescopeNormal guibg=none")
